@@ -285,7 +285,7 @@ if __name__ == '__main__':
     def main(callback):
         # Instantiate a socrata client to
         # http://data.seattle.gov/Transportation/Street-Parking-Signs/it8u-sznv
-        cl = SocrataClient("data.seattle.gov", "it8u-sznv", "fD6XiUvwNu0MpmRCIBdx4A7VI")
+        cl = SocrataClient("data.seattle.gov", "it8u-sznv", None)
     
         # Query to retrieve rows w/ objectid between 0 and 20
         # that contain the word "Park" in either the "customtext"

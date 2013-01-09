@@ -14,12 +14,11 @@ Follows Socrata API v1.0, detailed here:
 http://dev.socrata.com/deprecated/querying-datasets
 
 Example:
-	See the init function at the bottom of socrataclient.py 
-	for a simple example.
+* See the init function at the bottom of socrataclient.py for a simple example.
 	
 Requirements:
-	Tornado >= version 2.4 (http://www.tornadoweb.org/_
-	Toro (https://github.com/ajdavis/toro)
+* Tornado >= version 2.4 (http://www.tornadoweb.org/_
+* Toro (https://github.com/ajdavis/toro)
 	
 Future work: 
-	adapt this client to API v2.0 (http://dev.socrata.com/docs/queries)
+* Adapt this client to API v2.0 (http://dev.socrata.com/docs/queries)
